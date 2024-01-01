@@ -121,7 +121,7 @@ const episodeHelper = {
         const download_links = [];
         let response;
     
-        element.find("ul").filter(function () {
+        element.find("ul:first").filter(function () {
             const quality = $(this).find("li").eq(num).find("strong").text();
             const size = $(this).find("li").eq(num).find("i").text();
             $(this).find("li").eq(num).find("a").each(function () {
