@@ -1,3 +1,3 @@
-const baseUrl = "https://otakudesu.cam"
+const baseUrl = "https://otakudesu.media"
 
 module.exports = baseUrl
